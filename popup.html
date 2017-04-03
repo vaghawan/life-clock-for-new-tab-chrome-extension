@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Life Clock For New Tab</title>
+    <script src ="jquery-3.2.0.min.js"></script>
+    <script src="moment.min.js"></script>
+    <script src ="jquery.datetimepicker.full.min.js"></script>
+    <script src="popup.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="jquery.datetimepicker.min.css" />
+
+  </head>
+  <body style="height:300px; width:430px;">
+  <div class="container">
+    <div class="clearfix"></div>
+	<div id="data"></div>
+	<div class="form-group">
+  <label>Your Date Of Birth</label>
+	<input style="padding:5px;" class="form-control" type="text" name="text" id="text">
+  <span id="error"></span>
+	</div>
+    <div class="form-group">
+    <button style="height: 33px; cursor: pointer;" class ="btn btn-primary" id="set">Submit</button>
+    </div>
+	<div class="clear"></div>
+	<p style="padding:5px; margin-top:100px;"> Once you put your date of birth, whenever you open a new tab, current hour of your life in which you're living now will be displayed.</p>
+  <p></p>
+   <a id="about" href="#">About</a>
+  </div>
+  </body>
+ 
+</html>
